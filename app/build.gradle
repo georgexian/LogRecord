@@ -1,5 +1,6 @@
 plugins {
-    id 'com.android.application'
+   // id 'com.android.application'
+    id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
 
 }
@@ -10,7 +11,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.georgel.logrecord"
+       // applicationId "com.georgel.logrecord"
         minSdk 22
         targetSdk 33
         versionCode 1
